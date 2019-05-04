@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/talangindah"
+    tools:context="com.skripsi23.appubblik.Anak_Wisata.reviewtlindah">
+
+    <!-- Grid Satu -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="5dp"
+        android:paddingTop="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar1"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar2"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar3"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+    </LinearLayout>
+
+    <!-- Grid Dua -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="5dp"
+        android:paddingTop="470dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar4"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar5"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="108dp"
+            android:layout_height="113dp"
+            app:srcCompat="@mipmap/gambar7"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

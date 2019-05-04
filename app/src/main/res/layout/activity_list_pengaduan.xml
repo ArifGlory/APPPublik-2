@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfafa"
+    tools:context="com.skripsi23.appubblik.ListPengaduan">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PgTittle"
+        android:background="#536DFE">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLayanan"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:text="List Pengaduan"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#E0F7FA"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Pgakun"
+        android:layout_below="@id/PgTittle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/Igakun"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/akun_new"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNama"
+            android:textSize="22sp"
+            android:text="Nama"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/Igakun"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:textSize="17sp"
+            android:text="No Handphone"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/Igakun"
+            android:layout_below="@+id/txtNama"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

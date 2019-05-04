@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi23.appubblik">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Aktiviti_Utama.RSUD"
+            android:label="Pelayanan Kesehatan"/>
+        <activity android:name=".Aktiviti_Utama.Kuliner" />
+        <activity android:name=".Aktiviti_Utama.Shop" />
+        <activity android:name=".Aktiviti_Utama.EKTP" />
+        <activity android:name=".Aktiviti_Utama.ktpe" />
+        <activity android:name=".Aktiviti_Utama.Pajak" />
+        <activity android:name=".Aktiviti_Utama.Perbankan" />
+        <activity android:name=".Aktiviti_Utama.Wisata" />
+        <activity android:name=".Aktiviti_Utama.Polisi" />
+        <activity android:name=".notif" />
+        <activity android:name=".SMS" />
+        <activity android:name=".Chatt" />
+        <activity
+            android:name=".Anak_Rsud.BPJS"
+            android:label="@string/title_activity_bpjs"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Anak_Rsud.RSUDMAP"
+            android:label="@string/title_activity_rsudmap" />
+        <activity android:name=".ChatKeCS" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Aktiviti_Utama.AdminActivity" />
+        <activity android:name=".ListChatActivity" />
+        <activity android:name=".ChatAdmin" />
+        <activity android:name=".Anak_Rsud.Rawatinap" />
+        <activity android:name=".Anak_Rsud.kamarrs" />
+        <activity android:name=".Anak_Rsud.jambesuk" />
+        <activity android:name=".Anak_Rsud.ttpasien" />
+        <activity android:name=".Anak_Rsud.dokterrs" />
+        <activity
+            android:name=".Anak_Rsud.ambulans"
+            android:label="@string/title_activity_ambulans"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Anak_Ektp.psoektp" />
+        <activity android:name=".Anak_Pajak.satutahun" />
+        <activity android:name=".Anak_Pajak.limatahun" />
+        <activity android:name=".iniperizinan" />
+        <activity android:name=".Anak_Wisata.talangindah" />
+        <activity android:name=".Anak_Wisata.telagagupit" />
+        <activity android:name=".Anak_Rsud.pelayanan" />
+        <activity android:name=".Anak_Rsud.alur" />
+        <activity android:name=".Anak_Belanja.chandra" />
+        <activity android:name=".Anak_Belanja.mmseribu" />
+        <activity android:name=".Anak_Wisata.bdgsekampung" />
+        <activity android:name=".Anak_Wisata.airterjun" />
+        <activity android:name=".Anak_Wisata.talangresort" />
+        <activity android:name=".Anak_Wisata.bukittursina" />
+        <activity android:name=".Anak_Belanja.chandrastore" />
+        <activity android:name=".Anak_Belanja.centerbusana" />
+        <activity android:name=".Anak_Belanja.difes" />
+        <activity android:name=".Anak_Belanja.hobnob" />
+        <activity android:name=".Anak_Belanja.doortugoods" />
+        <activity android:name=".Anak_Perbankan.bankbri" />
+        <activity android:name=".Anak_Perbankan.atmbri" />
+        <activity android:name=".Anak_Perbankan.bangbca" />
+        <activity android:name=".Anak_Perbankan.atmbca" />
+        <activity android:name=".Anak_Perbankan.bangmandiri" />
+        <activity android:name=".Anak_Perbankan.atmmandiri" />
+        <activity android:name=".Anak_Wisata.infotlindah" />
+        <activity android:name=".Anak_Wisata.reviewtlindah" />
+        <activity android:name=".Anak_Rsud.booking" />
+        <activity android:name=".TambahLaporan" />
+        <activity android:name=".ListPengaduan" />
+        <activity android:name=".ViewPengaduan"></activity>
+    </application>
+
+</manifest>

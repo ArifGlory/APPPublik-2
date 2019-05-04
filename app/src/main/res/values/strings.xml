@@ -1,0 +1,530 @@
+<resources>
+    <string name="app_name">AP Pubblik</string>
+    <string name="title_activity_nyoba">nyoba</string>
+    <string name="title_rsud">RSUD Pringsewu menyediakan fasilitas berobat menggunakan BPJS</string>
+    <string name="sub_title_rsud">Kini RSUD Pringsewu, mulai meningkatkan mutu kinerja para tenaga kerjanya dengan harapan mampu
+    memberikan pelayana  yang maksimal untuk masyarakat Pringsewu</string>
+    <string name="large_text">
+
+
+        "Biaya Berobat menggunakan layanan BPJS akan ditangung sepenuhnya oleh BPJS jika "
+        "prosedur berobat yang anda lakukan sesuai dengan ketentuan yang berlaku, ingat untuk pasien rawat"
+        "jalan ketika ingin berobat menggunakan layanan BPJS harus dimulai dari faskes tingkat 1, sesuai dengan yang tertera pada kartu BPJS anda.\n\n"
+
+        "Ketika anda ingin berobat menggunakan layanan BPJS maka langkah-langkahnya adalah sebagai berikut : \n\n"
+
+1.	 Jangan lupa bawa KTP dan kartu BPJS anda. \n\n
+
+2.	Datang ke faskes tingkat 1 sesuai dengan nama faskes tk1 yang tertera di kartu BPJS anda,
+        silahkan lihat kembali kartu BPJS anda, disana ada label Faskes tk1, biasanya isinya nama puskesmas,
+        poliklinik, praktek dokter pribadi, praktek dokter gigi atau nama rumah sakit tipe d yang sudah bekerja sama
+        dengan BPJS, fasilitas kesehatan itulah yang harus anda datangi pertama kali. \n\n
+
+3.	Masuk ke ruang layanan khusus BPJS, saat ini fasilitas kesehatan yang sudah bekerjasama
+        dengan BPJS menyediakan ruangan khsusus untuk pasien BPJS, ada juga yang belum tapi
+        rata-rata sudah menyediakan ruangan khusus. Silahkan anda masuk ke ruangkan khusus pelayanan BPJS,
+        dan antrilah sampai anda mendapatkan giliran pemeriksaan. \n \n
+
+4.	Ketika giliran anda, biasanya petugas faskes akan meminta kartu BPJS anda dan juga KTP anda,
+        silahkan serahkan kartu bpjs dan KTP untuk dilakukan validasi data, perawat akan memeriksa
+        tekanan darah dan juga berat badan anda. \n\n
+
+5.	Tunggu sampai giliran anda diperiksa dokter di fasilitas keseahatan tingkat pertama. \n\n
+
+6.	Ketika giliran anda dipanggil, dokter akan memeriksa kondisi anda, jika kondisi anda
+        tidak memungkinkan untuk ditangani di fasilitas kesehatan tingkat pertama, maka dokter
+        akan memberikan surat rujukan untuk ke faskes tingkat II (RSUD), namun jika kondisi anda
+        masih bisa ditangani di fakses tingkat 1, maka dokter akan memberikan resep. \n\n
+
+
+7.	Menuju apotek di faskes tk1 untuk tebus resep, petugas aptek akan menyiapkan resep untuk anda.
+        setelah resep diterima anda bisa langsung pulang tanpa dipungut biaya sepeserpun. \n\n
+</string>
+
+    <string name="Ralan">
+
+
+            Saat ini di RSUD Pringsewu terdapat 11 poli klinik rawat jalan, yaitu : \n \n
+
+           1. Poli Anak \n
+           2. Poli Kebidanan \n
+           3. Poli Bedah dan Ortopedi \n
+           4. Poli THT \n
+           5. Poli Paru \n
+           6. Poli Gigi \n
+           7. Poli Kulit dan Kelamin \n
+           8. Poli Mata \n
+           9. Poli Syaraf \n
+           10. Poli Penyakit Dalam \n
+           11. Poli Fisiotheraphy \n
+           12. Hemodialisa \n\n
+
+            Semoga informasi terkait pelayanan rawat jalan ini dapat membantu masyarakat dalam memperoleh
+            informasi terkait fasilitas pengobatan yang ada di RSUD Pringsewu. \n\n
+
+        </string>
+
+    <string name="ttpasien">
+
+
+        1. Pintu masuk / keluar berkunjung hanya dari pintu masuk yang telah ditentukan \n\n
+
+        2. Untuk kepentingan kesehatan, anak sehat dibawah umur 12 tahun tidak diijinkan / dilarang memasuki area
+
+          perawatan rumah sakit. \n\n
+
+        3. Untuk keselamatan dan kenyamanan pasien : \n\n
+
+         a. Jumlah pengunjung yang masuk ruang perawatan pada saat bersamaan tidak lebih dari 3 (tiga) orang \n
+
+         b. Pengunjung yang sedang sakit flu, tenggorokan atau memiliki penyakit menular tidak diperbolehkan
+
+             mengunjungi rumah sakit. \n
+
+         c. Bicara seperlunya dengan suara yang tidak keras. \n
+
+         d. Waktu berkunjung diusahakan sesingkat mungkin. \n
+
+         e. Dilarang membawa hewan peliharaan ke lingkungan rumah sakit. \n\n
+
+        4. Tidak diperkenankan membawa barang berharga, tikar, alas tidur, alat barang elektronik (rice cooker, laptop /
+
+         notebook , setrika atau barang sejenis lainnya) ke dalam lingkungan RS dan kami tidak bertanggungjawab atas
+
+         kehilangan, pencurian, atau kerusakan terhadap barang tersebut. \n\n
+
+        5. Dilarang merokok selama berada di lingkungan Rumah Sakit termasuk di area parkir RSUD Pringsewu. \n\n
+
+        6. Setelah jam kunjungan (Besuk) berakhir, petugas keamanan (Satpam) akan menutup dan mengunci seluruh
+
+         pintu ruang rawat inap. \n\n
+
+        7. Petugas keamanan (Satpam) berwenang untuk melaksanakan penertiban sesuai ketentuan tersebut diatas. \n\n
+
+        </string>
+
+    <string name="setahunp">
+
+        Syarat Perpanjang Pajak STNK Tahunan :\n
+a)	KTP Asli dan Fotocopy sesuai dengan nama pada STNK dan BPKB\n
+b)	STNK Asli dan Fotocopy\n
+c)	Fotocopy BPKB\n
+
+
+        </string>
+
+    <string name="limatahun">
+
+        Syarat Perpanjangan Pajak STNK 5 Tahunan :\n
+d)	KTP Asli dann Fotocopy sesuai dengan nama pada STNK dan BPKB\n
+e)	Cek Fisik Kendaraan Bermotor\n
+f)	STNK Asli dan Fotocopy\n
+g)	Fotocopy BPKB\n
+
+
+
+        </string>
+
+    <string name="infotalangindah">
+
+
+        Taman Wisata Talang Indah, termasuk di dalamnya Bukit Pangonan, merupakan wisata alam yang cocok untuk keluarga,
+        anak-anak, juga para muda-mudi bersantai, mengisi liburan, atau menikmati akhir pekan.\n\n
+
+        Fasilitas yang terus dilengkapi dan disempurnakan oleh pengelolanya, menambah animo wisatawan untuk
+        menikmati pesona wisata tersebut.\n\n
+
+        Sejak dikelola secara serius tempat ini makin ramai oleh para pemuda yang ingin mengabadikan keindahan alam dengan berswafoto.\n\n
+
+        Potensi wisata alam yang kini berkembang pesat dan mendapat sentuhan tangan dari Pemerintah Kabupaten
+        Pringsewu itu mulanya digagas oleh para pemuda yang tergabung dalam wadah Karang Taruna Fajaresuk.\n\n
+
+        Letak geografis Talang Indah dan Bukit Pangonan yang sangat strategis itu dijadikan destinasi wisata
+        rakyat yang murah meriah pun akhirnya tercapai.\n\n
+
+        Talang Indah-Bukit Pangonan terletak di Desa Fajaresuk atau sekitar satu jam perjalanan dari Bandar Lampung.
+        Gerbang masuk yang berada di tepi jalan utama Pringsewu - Tanggamus, mempermudah masyarakat mengunjungi tempat ini.\n\n
+
+        Bisa menggunakan angkutan umum (bus dan angkot) atau sepeda motor. Tempat parkir yang luas serta dilengkapi petugas
+        penjagaan yang cukup ramah, membuat pengunjung nyaman untuk berlama-lama menikmati liburannya.\n\n
+
+        Berbagai fasilitas pendukung disiapkan berupa pondokan untuk istirahat, area berswafoto, tempat out outbound,
+        mainan anak-anak berupa kolam renang, mandi bola, bebek ontel, pemancingan, perahu karet, serta masih banyak permainan lainnya.\n\n
+
+        Tiket masuk wisata Talang Indah-Bukit Pangonan relatif terjangkau oleh masyarakat, yaitu Rp3.000.
+        Wisata Talang dibuka setiap hari sejak pagi hingga pukul 16.00.\n\n
+
+        Di Bukit Pangonan, yang bersebelahan dengan Talang Indah, juga memiliki panorama yang indah dan saat ini sedang
+        dibangun sejumlah fasilitas penunjang, seperti pondokan.\n\n
+
+        Bukit Pangonan juga yang sangat elok untuk berswafoto. Posisi bukit dengan ketinggian yang cukup lumayan makin
+        menarik pengunjung untuk bisa melihat keindahan Pringsewu.\n\n\n\n\n\n
+
+        Sumber : Tribun lampung
+
+
+
+        </string>
+
+    <string name="izin">
+
+        PROSEDUR PEMBUATAN SURAT IJIN KERAMAIAN\n
+A. INFORMASI MEKANISME PENERBITAN SURAT IJIN KERAMAIAN\n\n
+Kapolri No. Pol / 02 / XII / 95 tentang perizinan dan notifikasi kegiatan masyarakat
+Dalam hal ini Kegiatan yang dimaksud adalah:\n
+1. Pertunjukan band musik / dangdut\n
+2. Wayang Kulit\n
+3. Ketoprak\n
+4. Dan pertunjukan lain\n\n
+
+PERSYARATAN PENERBITAN SURAT IJIN KERAMAIAN\n
+1. Izin Perdamaian yang membawa massa 300 - 500 orang (Kecil)
+Sebuah. Surat Keterangan dari kelurahan setempat\n
+b. Fotokopi Kartu Tanda Penduduk (KTP)  1 (satu) Lembar\n
+c. Fotokopi Kartu Keluarga (KK) 1 (satu) lembar\n\n
+2. Izin Perdamaian yang membawa massa lebih dari 1000 orang (besar)\n
+d. Surat Permohonan Izin Perdamaian\n
+e. Proposal kegiatan\n
+f. Identitas Penyelenggara / Penanggung Jawab\n
+g. Izin Tempat beraktivitas\n
+
+
+
+        </string>
+
+    <string name="atmbri">
+
+       A. SYARAT MEMBUAT REKENING ATM BRI\n
+       - Dokumen untuk WNI berupa KTP dan NPWP (Jika belum punya NPWP maka
+        harus mengisi form pernyataan), dan Dokumen untuk WNA berupa
+        passport dan KIMS/KITAP/KITAS.\n\n
+
+        - Usia minimal 17 tahun.\n\n
+
+        - Setoran awal minimal Rp 100.000.\n\n
+
+        - Setoran selanjutnya minimal Rp 10.000.\n\n
+
+        B. SYARAT MEMBUKA REKENING SIMPEDES:\n
+       - Dokumen untuk WNI berupa KTP dan NPWP (Jika belum punya NPWP
+        maka harus mengisi form pernyataan), dan Dokumen untuk WNA berupa
+        passport dan KIMS/KITAP/KITAS.\n\n
+
+       - Usia minimal 17 tahun.\n\n
+
+       - Setoran awal minimal Rp 250.000 untuk Kartu Classic, Rp 10.000.000 untuk Kartu Gold.\n\n
+
+        - Setoran selanjutnya minimal Rp 10.000.\n\n
+
+
+
+        </string>
+
+    <string name="atmmandiri">
+
+        CARA MEMBUAT REKENING BANK MANDIRI \n\n
+
+        KTP atau SIM atau Paspor\n
+       - Banyak yang mengeluhkan mengenai ini, KTP tidak sesuai dengan domisili tempat tinggal
+        atau lokasi bank yang akan buat mendaftar. Namun tenang saja, di tahun 2015 ini bank
+        Mandiri masih menerima KTP daerah lain. (bukan e-KTP juga diterima). Namun kalai ada,
+        bawa juga kartu nama perusahan tempat anda bekerja.\n\n
+
+        - Kartu nama perusahan\n
+        Ini opsional saja. Gunanya hanya untuk mengisi data-data sewaktu mengisi formulir pendaftaran.
+        Kalau ada kartu ini, proses akan dipermudah.\n\n
+
+        - Uang Rp500.000,00 buat setoran awal\n
+        Sama seperti bank-bank lainnya, setoran awalnya sebanyak minimal Rp500.000,00.
+        Nanti disetorkan ke teller dan masuk ke saldo. Sebenarnya setelah rekening jadi,
+        hari itu juga bisa diambil lewat ATM. Tapi kalau transfer, tunggu 24 jam setelah ATM diaktifkan.\n\n
+
+        - Uang receh minimal Rp6.000,00\n
+        untuk mengganti harga meterai.
+
+
+
+        </string>
+
+    <string name="atmbca">
+
+        [A]. Cara Buka Rekening BCA Tahapan\n
+        Calon nasabah yang ingin membuka rekening di BCA Tahapan caranya cukup mudah
+        yaitu dengan memenuhi persyaratan-persyaratan sebagai berikut:\n\n
+
+        1. Individu/yayasan\n\n
+        2. Mengisi formulir permohonan melalui aplikasi online ataupun datang langsung ke kantor cabang bank BCA.\n\n
+        3. Kartu identitas diri yang masih berlaku serta NPWP.\n\n
+        4. Saldo setoran awal untuk Tabungan BCA Tahapan baik dengan Paspor BCA Silver,
+          Gold ataupun Platinum yaitu sebesar Rp500 ribu. Untuk setoran selanjutnya minimal adalah Rp50 ribu.\n\n
+        5. Memiliki saldo rata-rata perbulan Rp100 ribu.\n\n
+        6. Saldo minimum yang ditahan sebesar Rp50 ribu.\n\n
+        7. Dikenakan biaya administrasi setiap bulan dan ada biaya pembuatan ataupun penggantian kartu ATM.\n\n
+
+        Calon nasabah bisa memilih untuk buka rekening secara konvensional maupun dengan memanfaatkan aplikasi
+        online yang disediakan melalui website resmi bank BCA.\n\n
+
+        Jika anda berkenan untuk membuat rekening secara online, anda bisa mengunjungi website resmi bank BCA
+        dan mempelajari jenis tabungan yang sesuai dengan kebutuhan. Setelah anda memahami dan memilih jenis tabungan
+        maka anda bisa langsung klik menu “Daftar Online”.\n\n
+
+        Setelah itu anda akan di arahkan untuk mengisi formulir online. Selanjutnya anda tinggal mengisi form-form
+        yang telah disediakan seperti nama lengkap, alamat dan lain sebagainya. Berikutnya anda tinggal mengikuti instruksi yang diberikan.
+        Setelah data terisi lengkap akan mendapatkan nomor referensi yang nantinya akan anda bawa ke bank beserta syarat-syarat yang telah
+        disebutkan di atas.\n\n
+
+        [#]. Biaya Tabungan BCA Tahapan Berdasarkan Jenis Kartu\n
+        Biaya administrasi yang dikenakan untuk produk BCA Tahapan sebagai berikut:\n\n
+
+        1. Paspor BCA Silver: Biaya administrasi per-bulan= Rp15 ribu / Biaya pembuatan kartu atau biaya penggantian kartu = Rp10 ribu\n\n
+        2. Paspor BCA Gold : Biaya administrasi per-bulan = Rp17 ribu/ Biaya pembuatan kartu atau biaya penggantian kartu = Rp15 ribu\n\n
+        3. Paspor BCA Platinum: Biaya administrasi per-bulan = Rp20 ribu/ Biaya pembuatan kartu atau biaya penggantian kartu = Rp20 ribu\n\n
+
+        Setelah anda mengetahui cara pembuatan rekening Tahapan BCA beserta biaya-biayanya maka sekarang saatnya anda mengetahui
+        apa saja manfaat yang diberikan oleh tabungan Tahapan BCA seperti diulas di bawah ini.\n\n
+
+        Manfaat yang Anda Dapatkan Dengan Tahapan BCA\n
+        Sebagai nasabah Tahapan BCA, nikmati berbagai kemudahan dan manfaat sebagai berikut:\n\n
+
+        1. Tarik tunai di ribuan ATM BCA dan jaringannya baik di dalam maupun luar negeri (ATM BCA, ATM Prima,  ATM Cirrus).\n\n
+        2. Tabungan bisa dijadikan jaminan kredit\n\n
+        3. Layanan info via SMS/e-Mail untuk setiap transaksi yang anda lakukan di rekening anda termasuk notifikasi informasi saldo,
+            tarikan Warkat, Tarikan Khusus, transaksi kredit maupun debit.\n\n
+        4. Support berbagai macam pembayaran mulai dari pembayaran listrik hingga pembayaran pinjaman\n\n
+        5. Bisa mengikuti komunitas Tahapan BCA\n\n
+        6. Transaksi aman dan nyaman\n\n
+
+        [B]. Tabungan BCA Tapres\n
+        Jika anda ingin tidak sekedar menabung akan tetapi juga ingin menikmati suku bunga yang diberikan,
+        maka Tabungan BCA Tapres adalah solusi yang tepat. Namun demikian perlu diketahui bahwa sejak tanggal
+        1 Januari 2016 bank BCA mengadakan perubahan biaya dan limit sebagai berikut:\n\n
+
+        1. Setoran awal minimal Rp5 juta\n\n
+        2. Saldo minimum rata-rata per-bulan Rp5 juta\n\n
+        3. Biaya administrasi per-bulan sebesar Rp17 ribu\n\n
+        4. Biaya pembuatan/penggantian kartu Rp15 ribu\n\n
+        5. Biaya administrasi saldo dibawah minimal sebesar Rp10 ribu\n\n
+        6. Mengenai persyaratan yang diperlukan selain setoran awal sebesar Rp5 juta rupiah
+        adalah siapa saja yang memiliki umur 17 tahun lebih serta membawa kelengkapan berupa kartu identitas,
+        dan mengisi formulir baik secara online atau di kantor cabang bank BCA terdekat.\n\n
+
+        [C]. Tabungan BCA Tahapan Xpresi\n\n
+
+        1. Tabungan BCA Tahapan Xpresi disuguhkan kepada para generasi muda yang penuh gaya.
+        Namun demikian sebenarnya tabungan ini tidak memiliki batasan umur dan siapa saja boleh membuat rekening Tahapan Xpresi.
+        Per 1 Februari 2016 bank BCA telah melakukan perubahan biaya maupun saldo minimum untuk BCA Tahapan Xpresi. Namun demikian
+        biayanya masih tergolong sangat terjangkau bagi kaula muda.\n\n
+
+        2. Banyak sekali manfaat yang diberikan mulai dari setoran awal yang hanya Rp50 ribu, tidak ada buku
+        tabungan sehingga lebih praktis, fasilitas KlikBCA dan m-BCA secara otomatis, dan langsung bisa digunakan untuk
+        berbagai macam transaksi termasuk berbelanja melalui e-banking.\n\n
+
+        3. Tabungan Xpresi memiliki limit tarik tunai Rp7 juta sama dengan tabungan Tahapan BCA dengan kartu Gold.
+        Transaksi antar bank maksimal Rp25 juta  dalam sekali transaksi.\n\n
+
+        [#]. Biaya dan Saldo Minimum Tahapan Xpresi\n
+        Biaya administrasi yang dikenakan untuk produk Tahapan Xpresi sebagai berikut :\n\n
+
+        - Setoran awal Rp50.000\n\n
+        - Setoran selanjutnya minimal Rp50.000\n\n
+        - Saldo minimum Rp10.000\n\n
+        - Biaya administrasi bulanan Rp5.000\n\n
+        - Biaya penggantian kartu/pembuatan kartu Rp25.000\n\n
+        - Biaya penutupan rekening Rp5.000\n\n
+
+        [#]. Persyaratan dan Cara Buka Tabungan Tahapan BCA Xpresi\n
+        1. Cara buka Tahapan BCA Xpresi hampir sama dengan membuka rekening lainnya yaitu bisa melalui “Daftar Online”
+        atau datang langsung ke kantor cabang BCA terdekat. Mengenai persyaratannya, BCA Xpresi memiliki persyaratan
+        yang berbeda-beda sesuai dengan golongan umur. Pendaftarannya pun bisa diwakilkan untuk anak yang berumur kurang dari 12 Tahun.\n\n
+
+        2. Untuk anak usia lebih dari 17 tahun maka persyaratannya hanya membawa Fotokopi KTP dan Fotokopi NPWP.
+        Jika tidak memiliki NPWP maka bisa mengisi form surat pernyataan tanpa NPWP yang bisa diunduh melalui website www.bca.co.id .\n\n
+
+        [D]. Tabungan BCA Dollar\n\n
+        1. Tabungan BCA Dollar merupakan pilihan tepat bagi siapa saja yang sering melakukan transaksi dengan
+        mata uang asing USD atau SGD. Setoran awal untuk membuka tabungan ini adalah sebesar USD 100 atau SGD 200.
+        Biaya administrasi bulanan untuk USD adalah 1 USD dan untuk SGD adalah 2 SGD.\n\n
+
+        2. Tabungan BCA Dollar bisa didapatkan oleh individu yang sudah berusia 21 tahun atau lebih.
+        Persyaratan yang diperlukan selain uang setoran awal adalah kelengkapan dokumen berupa kartu identitas dan mengisi
+        formulir permohonan di atas materai.\n\n
+
+        3. Memahami berbagai manfaat dan cara membuat rekening di BCA di atas akan memberikan banyak kemudahan
+        bagi nasabah untuk mendapatkan layanan yang maksimal.\n\n
+
+
+        [#]. Pilih yang Sesuai Kebutuhan\n
+        Setiap jenis tabungan di BCA memiliki persyaratan dan ketentuan yang berbeda-beda.
+        Sesuaikan pilihan tabungan dengan kebutuhan Anda sekarang. Pertimbangkan jenis tabungan dengan
+        kemungkinan aktivitas transaksi yang akan Anda lakukan dan manfaatkan keuntungan dari setiap jenis
+        tabungan yang dipilih dengan optimal.
+
+
+        </string>
+
+
+    <string name="ektp">
+
+
+       Berikut proses syarat ketentuan pembuatan KTP berdasarkan Dinas Kependudukan dan Pencatatan Sipil Kabupaten Pringsewu:\n\n
+
+BIODATA PENDUDUK\n
+1. Penduduk WNI wajib melaporan Kepada Instansi Pelaksana melalui Lurah dan Camat untuk dicatatkan Biodatanya.\n
+2. Pencatatan Biodata Penduduk WNI dilakukan setelah memenuhi syarat :\n
+a)   Surat Pengantar dari RT dan RW.\n
+b)   Kutipan Akta Kelahiran.\n
+c)   Ijazah atau Surat Tanda Tamat Belajar.\n
+d)   Kartu Keluarga.\n
+e)   Kartu Tanda Penduduk.\n
+f)   Kutipan Akta Perkawinan/Kutipan Akta Nikah atau.\n
+g)   Kutipan Akta Perceraian.\n\n
+
+KARTU KELUARGA ( KK )\n
+1. Penduduk WNI wajib melaporkan susunan Keluarganya kepada Instansi pelaksana melalui Lurah dan Camat.\n
+2. Penerbitan KK dilakukan setelah memenuhi syarat :\n
+a. Surat Pengantar RT dan RW/n
+b. Ijin tinggal tetap bagi orang asing/n
+c. Foto copi Kutipan Akta Nikah/Kutipan Akta Perkawinan\n
+d. Surat Keterangan Pindah/Surat Keterangan Pindah Datang dalam wilayah NKRI\n
+e. Surat Keterangan datang dari Luar Negeri bagi WNI yang datang dari luar negeri karena pindah\n
+f. Kartu Keluarga (KK) lama karena penambahan/pengurangan anggota Keluarga\n\n
+ 
+KARTU TANDA PENDUDUK (KTP)\n
+1. Penerbitan KTP baru bagi penduduk WNI,dilakukan setelah memenuhi syarat berupa:\n
+a.  Telah berusia 17 (tujuh belas) tahun atau sudah kawin atau pernah kawin\n
+b.  Surat pengantar RT/RW dan Kepala desa/lurah\n
+c.  Poto copy Kartu Keluarga\n
+d.  Kutipan Akta Nikah/Akta Kawin bagi Penduduk yang belum berusia 17 tahun\n
+e.  Kutipan Akta Kelahiran\n
+f.  Surat keterangan datang dari luar negeri yang diterbitkan oleh Instansi pelaksana bagi WNI yang datang dari luar  negeri Karena  pindah\n\n
+
+2.   Penerbitan KTP baru bagi orang asing yang memiliki izin tinggal tetap,dilakukan setelah memenuhi syarat berupa \n:
+a.   Telah berusia 17 (tujuh belas) tahun atau sudah kawin atau pernah kawin\n
+b.   Foto kopi Kartu Keluarga\n
+c.   Kutipan Akta Nikah/Akta Kawin bagi penduduk yang belum berusia 17 tahun\n
+d.   Kutipan Akta Kelahiran\n
+e.   Paspor dan Izin Tinggal Tetap \n
+f.   Surat Keterangan Catatan Kepolisian .\n\n
+
+3. Penerbitan KTP karena hilang atau rusak bagi penduduk WNI atau orang asing yang memiliki izin tinggal tetap ,dilakukan setelah  memenuhi syarat berupa :\n
+a.   Surat keterangan kehilangan dari kepolisian atau KTP yang rusak\n
+b.   Fotokopi KK ,dan\n
+c.   Paspor dan izin Tinggal Tetap bagi Orang Asing.\n\n
+
+4. Penerbitan KTP karena pindah datang bagi penduduk WNI atau orang asing yang memiliki izin tinggal tetap dilakukan setelah memenuhi syarat berupa :\n
+a.   Surat Keterangan Pindah/Surat Keterangan Pindah datang\n
+b.   Surat Keterangan Datang dari Luar Negeri bagi Warga Negara Indonesia yang datang dari luar negeri karena pindah.\n
+5.   Penerbitan KTP di dilaksanakan di tingkat kelurahan dengan tata cara :\n
+a.   Petugas Registrasi melakukan verifikasi dan validasi data kependudukan\n
+b.   Petugas registrasi melakukan perekaman data kedalam database kependudukan\n
+c.   Instansi Pelaksana mencetak dan menerbitkan KTP\n
+
+
+        </string>
+
+    <string name="dokprak">
+
+   1. dr. Aspri Sulanto (Klinik Anak) \n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat( Pukul 09.30 - 11.00 )\n
+Hari Sabtu( Pukul 09.30 - 12.00 )\n\n
+
+2. dr. Tiara, Sp.M (Klinik Mata) \n
+Hari Senin - Kamis ( Pukul 09.30 - 12.30 )\n
+Hari Jumat 	   ( Pukul 09.30 - 12.30 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.30 )\n\n
+
+3. dr. Didiek Arief Setyadi,Sp.PD (Penyakit Dalam)\n
+   (Shift Minggu Ganjil) \n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	   ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+4. dr. Eko Purnanto, Sp.B (Klinik Bedah)\n
+Hari Senin, Rabu, Jumat ( Pukul 09.30 - 13.30 )\n\n
+
+5. dr. Agung Prasetyo, Sp.B (Klinik Bedah)\n
+Hari Selasa, Kamis, Sabtu ( Pukul 09.30 - 13.30 )\n\n
+
+6. dr. Lita Ria, Astrianti Sp.OG (Klinik Kebidanan)\n
+   (Shift Minggu Ganjil) \n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+7. dr. Budi Arianto, Sp.OG (Klinik Kebidanan)\n
+   (Shift Minggu Genap) \n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+8. dr. Th. Niken Wijayanti, Sp.KK (Klinik Kulit dan Kelamin)\n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+9. dr. Edi Pramono, Sp. AN.M.Kes (Anestesi)\n
+Hari Senin - Sabtu ( Pukul 09.30 - 13.30 )\n\n
+
+10. dr. Irshan Novalino, Sp.OT (Klinik Orthopedi)\n
+Hari Senin, Rabu   ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n\n
+
+11. drg. Ahmad Fuad,
+    drg. Ika Swastika Prihantini  (Klinik Gigi dan Mulut)\n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+12. dr. Meynasari  (Klinik Akupuntur)\n
+Hari Senin dan Rabu ( Pukul 09.30 - 13.30 )\n\n
+
+13. dr. Abdul Aziz, M.Sc, Sp.S  (Klinik Saraf)\n
+Hari Senin, Rabu dan Kamis ( Pukul 09.30 - 12.30 )\n\n
+
+14. dr. Ikrizal  (Klinik Urilogi)\n
+Hari Senin dan jumat ( Pukul 09.30 - 12.30 )\n\n
+
+15. Tim Fisioterapi  (Klinik Fisioterapi)\n
+Hari Senin - Kamis ( Pukul 09.30 - 13.30 )\n
+Hari Jumat 	       ( Pukul 09.30 - 11.00 )\n
+Hari Sabtu 	       ( Pukul 09.30 - 12.00 )\n\n
+
+16. dr. Muhammad Nur, Sp.PK  (Laboraturium)\n
+Hari Senin - Sabtu ( Pukul 09.30 - 13.30 )\n\n
+
+17. dr. Dyah Kusumo Wardhani,
+Sp. RAD  (Radiologi)\n
+Hari Senin - Sabtu ( Pukul 09.30 - 13.30 )\n\n
+
+
+
+
+
+
+
+        </string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bpjs">BPJS</string>
+
+    <string name="pesan_bpjs_notification_title_template">Pesan bpjs: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="pesan_bpjs_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_rsudmap">Map</string>
+    <string name="title_activity_kamarrs">kamarrs</string>
+    <string name="title_activity_ambulans">ambulans</string>
+    <string name="title_activity_prosesktp">prosesktp</string>
+</resources>
