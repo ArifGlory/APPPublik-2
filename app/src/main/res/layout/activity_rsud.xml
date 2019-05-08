@@ -69,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/line1"
             android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:weightSum="3"
             android:orientation="vertical">
@@ -190,6 +191,16 @@
                     android:text="Tata tertib"/>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Booking"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnBooking"
+                android:textStyle="bold"
+                android:background="@color/btn_context_menu_text_red"
+                />
 
 
         </LinearLayout>

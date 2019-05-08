@@ -24,6 +24,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.skripsi23.appubblik.Aktiviti_Utama.AdminActivity;
+import com.skripsi23.appubblik.Kelas.SharedVariable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,29 +52,11 @@ public class MainActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
         FirebaseApp.initializeApp(MainActivity.this);
         Kref = new Firebase("https://appubblik-9c8ec.firebaseio.com/").child("user");
+        fAuth = FirebaseAuth.getInstance();
         btn_login = (Button) findViewById(R.id.btnLoginUser);
         etEmail = (EditText) findViewById(R.id.etUserEmail);
         etPass = (EditText) findViewById(R.id.etUserPass);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        //check jika sudah login
-        ambilDataUser();
-        fAuth = FirebaseAuth.getInstance();
-        if (fAuth.getCurrentUser()!= null){
-
-            idUser = fAuth.getCurrentUser().getUid();
-            if (list_keyUser.contains(idUser)){
-
-                String name = fAuth.getCurrentUser().getDisplayName();
-                Home.nama = name;
-                startActivity(new Intent(MainActivity.this,Home.class));
-                finish();
-            }else{
-                ambilDataUser();
-            }
-
-        }else {
-            ambilDataUser();
-        }
 
         btnDaftar = (Button) findViewById(R.id.btnDaftarUser);
 
@@ -88,8 +71,6 @@ public class MainActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
-               /* i = new Intent(MainActivity.this,BerandaActivity.class);
-                startActivity(i);*/
 
                 String email = etEmail.getText().toString();
                 final String pass = etPass.getText().toString();
@@ -104,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
 
-
                             if (!task.isSuccessful()){
                                 progressBar.setVisibility(View.GONE);
                                 etEmail.setEnabled(true);
@@ -116,34 +96,38 @@ public class MainActivity extends AppCompatActivity {
                                 String userID = fAuth.getCurrentUser().getUid();
                                 String email = fAuth.getCurrentUser().getEmail();
                                 int jml_user = list_keyUser.size();
-                                for (int c=0;c<jml_user;c++){
 
-                                    if (list_keyUser.contains(userID)){ //kalau akun ny ada di list User
+                                if (email.equals("admin@mail.com")){
+                                    String name = fAuth.getCurrentUser().getDisplayName();
+                                    i = new Intent(getApplicationContext(),AdminActivity.class);
+                                    Toast.makeText(getApplicationContext(),"Login admin activated",Toast.LENGTH_SHORT).show();
+                                    startActivity(i);
+                                    progressBar.setVisibility(View.GONE);
+                                }else{
+                                    String name = fAuth.getCurrentUser().getDisplayName();
+                                    Home.nama = name;
+                                    SharedVariable.nama = name;
+                                    SharedVariable.userID = fAuth.getCurrentUser().getUid();
 
-                                        if (email.equals("admin@mail.com")){
-                                            String name = fAuth.getCurrentUser().getDisplayName();
-                                            i = new Intent(getApplicationContext(),AdminActivity.class);
-                                            Toast.makeText(getApplicationContext(),"Login admin activated",Toast.LENGTH_SHORT).show();
-                                            startActivity(i);
-                                            progressBar.setVisibility(View.GONE);
 
-                                        }else{
-                                            String name = fAuth.getCurrentUser().getDisplayName();
-                                            Home.nama = name;
+                                    Kref.child(SharedVariable.userID).addValueEventListener(new ValueEventListener() {
+                                        @Override
+                                        public void onDataChange(DataSnapshot dataSnapshot) {
+                                            String nope = dataSnapshot.child("nope").getValue().toString();
+                                            SharedVariable.nope = nope;
                                             i = new Intent(getApplicationContext(),Home.class);
                                             startActivity(i);
                                             progressBar.setVisibility(View.GONE);
                                         }
 
-                                    }else {
-                                        progressBar.setVisibility(View.GONE);
-                                        etEmail.setEnabled(true);
-                                        etPass.setEnabled(true);
-                                        btn_login.setEnabled(true);
-                                        Toast.makeText(getApplicationContext(), "Login Gagal, periksa kembali email dan password anda", Toast.LENGTH_LONG).show();
-                                    }
-                                }
+                                        @Override
+                                        public void onCancelled(FirebaseError firebaseError) {
 
+                                        }
+                                    });
+
+
+                                }
                             }
                         }
                     });
@@ -157,33 +141,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void ambilDataUser(){
-
-        progressBar.setVisibility(View.VISIBLE);
-        etEmail.setEnabled(false);
-        etPass.setEnabled(false);
-
-        Kref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                list_keyUser.clear();
-                for (DataSnapshot child : dataSnapshot.getChildren()){
-                    //kalo cocok bisa login
-                    String kunci = child.getKey();
-                    list_keyUser.add(kunci);
-                }
-                progressBar.setVisibility(View.GONE);
-                etPass.setEnabled(true);
-                etEmail.setEnabled(true);
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-
-            }
-        });
-    }
 
     @Override
     public void onBackPressed() {
