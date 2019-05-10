@@ -23,6 +23,9 @@ import com.skripsi23.appubblik.Kelas.BookingRSUD;
 import com.skripsi23.appubblik.Kelas.SharedVariable;
 import com.skripsi23.appubblik.R;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class DaftarBooking extends AppCompatActivity {
@@ -90,7 +93,8 @@ public class DaftarBooking extends AppCompatActivity {
     }
 
     private void sendData(String nama,String umur,String alamat){
-        BookingRSUD bookingRSUD = new BookingRSUD(nama,umur,alamat,SharedVariable.nope,title);
+        final String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        BookingRSUD bookingRSUD = new BookingRSUD(nama,umur,alamat,SharedVariable.nope,title,SharedVariable.userID,timeStamp);
 
         String key = ref.child("booking_rsud").push().getKey();
         final Task inittask =  ref.child("booking_rsud").child(key).setValue(bookingRSUD);
@@ -120,10 +124,6 @@ public class DaftarBooking extends AppCompatActivity {
                 Log.d("bookingRSUD:",""+e.toString());
             }
         });
-
-
-
-
 
     }
 

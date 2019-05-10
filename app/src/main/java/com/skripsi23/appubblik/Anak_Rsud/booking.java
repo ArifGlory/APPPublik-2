@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 import com.skripsi23.appubblik.R;
 
@@ -13,6 +14,7 @@ public class booking extends AppCompatActivity {
     Button btn_GIGI,btn_ANAK,btn_THT,btn_MATA,btn_dalam,btn_KULIT
             ,btn_SYARAF,btn_AKUPUNTUR,btn_BIDAN;
     Intent intent;
+    LinearLayout linePesananSaya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class booking extends AppCompatActivity {
         btn_SYARAF = findViewById(R.id.btn_SYARAF);
         btn_AKUPUNTUR = findViewById(R.id.btn_AKUPUNTUR);
         btn_BIDAN = findViewById(R.id.btn_BIDAN);
+        linePesananSaya = findViewById(R.id.linePesananSaya);
 
         btn_GIGI.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +104,14 @@ public class booking extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        linePesananSaya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(getApplicationContext(),MyBookingActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

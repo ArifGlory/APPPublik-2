@@ -18,6 +18,7 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
+import com.skripsi23.appubblik.Anak_Rsud.SubMenuAdminRSUD;
 import com.skripsi23.appubblik.ListChatActivity;
 import com.skripsi23.appubblik.MainActivity;
 import com.skripsi23.appubblik.R;
@@ -95,12 +96,8 @@ public class AdminActivity extends AppCompatActivity {
         ibRsud.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),ListChatActivity.class);
-                String namaLayanan = "RSUD";
-                String from_id = "rsud";
-                i.putExtra("namaLayanan",namaLayanan);
-                i.putExtra("from_id",from_id);
-                startActivity(i);
+                Intent intent = new Intent(getApplicationContext(),SubMenuAdminRSUD.class);
+                startActivity(intent);
             }
         });
 

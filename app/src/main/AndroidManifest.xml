@@ -107,7 +107,12 @@
         <activity android:name=".TambahLaporan" />
         <activity android:name=".ListPengaduan" />
         <activity android:name=".ViewPengaduan" />
-        <activity android:name=".Anak_Rsud.DaftarBooking"></activity>
+        <activity android:name=".Anak_Rsud.DaftarBooking" />
+        <activity
+            android:name=".Anak_Rsud.MyBookingActivity"
+            android:label="My Booking" />
+        <activity android:name=".Anak_Rsud.SubMenuAdminRSUD" />
+        <activity android:name=".Anak_Rsud.ListBookingAdminRSUD"></activity>
     </application>
 
 </manifest>
