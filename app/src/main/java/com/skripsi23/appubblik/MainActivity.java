@@ -99,6 +99,10 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (email.equals("admin@mail.com")){
                                     String name = fAuth.getCurrentUser().getDisplayName();
+                                    SharedVariable.nama     = name;
+                                    SharedVariable.userID   = fAuth.getCurrentUser().getUid();
+                                    SharedVariable.email    = fAuth.getCurrentUser().getEmail();
+
                                     i = new Intent(getApplicationContext(),AdminActivity.class);
                                     Toast.makeText(getApplicationContext(),"Login admin activated",Toast.LENGTH_SHORT).show();
                                     startActivity(i);
@@ -106,9 +110,9 @@ public class MainActivity extends AppCompatActivity {
                                 }else{
                                     String name = fAuth.getCurrentUser().getDisplayName();
                                     Home.nama = name;
-                                    SharedVariable.nama = name;
-                                    SharedVariable.userID = fAuth.getCurrentUser().getUid();
-
+                                    SharedVariable.nama     = name;
+                                    SharedVariable.userID   = fAuth.getCurrentUser().getUid();
+                                    SharedVariable.email    = fAuth.getCurrentUser().getEmail();
 
                                     Kref.child(SharedVariable.userID).addValueEventListener(new ValueEventListener() {
                                         @Override

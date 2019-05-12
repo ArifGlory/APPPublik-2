@@ -167,7 +167,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="Lokasi Polsek"
+            android:text="Pengaduan Saya"
             android:textAlignment="center"
             android:textColor="@color/cardview_light_background"
             android:textColorLink="@color/cardview_light_background"
@@ -211,7 +211,6 @@
     <!-- tittle -->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/linearLayout"
         android:layout_width="388dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -227,7 +226,6 @@
         tools:layout_editor_absoluteX="-1dp">
 
         <TextView
-            android:id="@+id/titlektp"
             android:layout_width="79dp"
             android:layout_height="79dp"
             android:layout_alignBottom="@+id/imageView2"
@@ -282,7 +280,6 @@
     <!-- tittle -->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/linearLayout"
         android:layout_width="388dp"
         android:layout_height="0dp"
         android:orientation="vertical"

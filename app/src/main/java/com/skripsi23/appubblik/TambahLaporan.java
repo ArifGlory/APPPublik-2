@@ -1,6 +1,7 @@
 package com.skripsi23.appubblik;
 
-import android.icu.text.SimpleDateFormat;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.TextureView;
@@ -15,6 +16,9 @@ import com.firebase.client.Firebase;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.skripsi23.appubblik.Kelas.Laporan;
+import com.skripsi23.appubblik.Kelas.SharedVariable;
+
+import java.text.SimpleDateFormat;
 
 import java.util.Date;
 
@@ -26,11 +30,11 @@ public class TambahLaporan extends AppCompatActivity {
     EditText etnamap,etnohp,etlokasi,etlaporan;
     String time;
 
-
     Firebase Kref;
     private FirebaseAuth fAuth;
     private FirebaseAuth.AuthStateListener fStateListener;
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,10 +55,11 @@ public class TambahLaporan extends AppCompatActivity {
         btnlaporan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Laporan polisi=new Laporan(etnamap.getText().toString(),
+                Laporan polisi =new Laporan(etnamap.getText().toString(),
                         etnohp.getText().toString(),
                         etlokasi.getText().toString(),
-                        etlaporan.getText().toString());
+                        etlaporan.getText().toString(),
+                        SharedVariable.userID);
 
 
                 Kref.child(time).setValue(polisi);

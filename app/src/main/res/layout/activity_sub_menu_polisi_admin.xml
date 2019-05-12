@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fdfafa"
-    tools:context="com.skripsi23.appubblik.ListPengaduan">
+    android:background="@color/white"
+    tools:context=".Anak_Polisi.SubMenuPolisiAdmin">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:background="@color/white_greyish"
             android:layout_width="match_parent"
-            app:title="Laporan "
+            app:title="Sub Menu RSUD"
             app:titleTextColor="@color/black2"
             android:layout_height="?attr/actionBarSize"
             app:layout_collapseMode="pin"
@@ -26,16 +26,30 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_below="@+id/appbar"
-        android:layout_marginTop="10dp"
-        android:padding="15dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:scrollbars="vertical" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
 
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="@style/buttonGame"
+            android:text="Chat Pengguna"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnKeChat"/>
 
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="@style/buttonGame"
+            android:text="List Laporan"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnKeLaporan"/>
+
+    </LinearLayout>
 
 </RelativeLayout>

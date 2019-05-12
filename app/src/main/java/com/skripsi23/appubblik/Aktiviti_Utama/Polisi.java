@@ -14,7 +14,7 @@ import com.skripsi23.appubblik.iniperizinan;
 
 public class Polisi extends AppCompatActivity {
 
-    ImageButton ib_csPolisi;
+    ImageButton ib_csPolisi,ibIzin,ibPengaduan,ibLapor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +33,10 @@ public class Polisi extends AppCompatActivity {
             }
         });
 
-        ib_csPolisi = (ImageButton) findViewById(R.id.izin1);
+        ibIzin = (ImageButton) findViewById(R.id.izin1);
 
 
-        ib_csPolisi.setOnClickListener(new View.OnClickListener() {
+        ibIzin.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View O) {
@@ -50,10 +50,10 @@ public class Polisi extends AppCompatActivity {
             }
         });
 
-        ib_csPolisi = (ImageButton) findViewById(R.id.imglapor);
+        ibLapor = (ImageButton) findViewById(R.id.imglapor);
 
 
-        ib_csPolisi.setOnClickListener(new View.OnClickListener() {
+        ibLapor.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View O) {
@@ -67,18 +67,15 @@ public class Polisi extends AppCompatActivity {
             }
         });
 
-        ib_csPolisi = (ImageButton) findViewById(R.id.ibpengaduan);
+        ibPengaduan = (ImageButton) findViewById(R.id.ibpengaduan);
 
 
-        ib_csPolisi.setOnClickListener(new View.OnClickListener() {
+        ibPengaduan.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View O) {
 
-                // TODO Auto-generated method stub
-
                 Intent intent = new Intent(getApplicationContext(), ListPengaduan.class);
-
                 startActivity(intent);
 
             }

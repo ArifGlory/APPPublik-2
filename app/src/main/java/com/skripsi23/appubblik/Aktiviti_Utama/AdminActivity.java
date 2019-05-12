@@ -18,6 +18,7 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
+import com.skripsi23.appubblik.Anak_Polisi.SubMenuPolisiAdmin;
 import com.skripsi23.appubblik.Anak_Rsud.SubMenuAdminRSUD;
 import com.skripsi23.appubblik.ListChatActivity;
 import com.skripsi23.appubblik.MainActivity;
@@ -83,11 +84,7 @@ public class AdminActivity extends AppCompatActivity {
         ibPolisi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),ListChatActivity.class);
-                String namaLayanan = "Polisi";
-                String from_id = "polisi";
-                i.putExtra("namaLayanan",namaLayanan);
-                i.putExtra("from_id",from_id);
+                Intent i = new Intent(getApplicationContext(),SubMenuPolisiAdmin.class);
                 startActivity(i);
             }
         });

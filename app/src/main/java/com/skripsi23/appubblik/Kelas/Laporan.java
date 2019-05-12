@@ -4,18 +4,41 @@ package com.skripsi23.appubblik.Kelas;
  * Created by Asus on 14/04/2019.
  */
 
-public class Laporan {
+public class Laporan  {
 
     String nama;
     String nohp;
     String lokasi;
     String laporan;
+    String userID;
+    String time;
 
-    public Laporan(String nama, String nohp, String lokasi, String laporan) {
+    public Laporan(){
+
+    }
+
+    public Laporan(String nama, String nohp, String lokasi, String laporan,String userID) {
         this.nama = nama;
         this.nohp = nohp;
         this.lokasi = lokasi;
         this.laporan = laporan;
+        this.userID = userID;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
     }
 
     public String getNama() {

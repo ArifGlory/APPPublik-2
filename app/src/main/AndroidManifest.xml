@@ -112,7 +112,8 @@
             android:name=".Anak_Rsud.MyBookingActivity"
             android:label="My Booking" />
         <activity android:name=".Anak_Rsud.SubMenuAdminRSUD" />
-        <activity android:name=".Anak_Rsud.ListBookingAdminRSUD"></activity>
+        <activity android:name=".Anak_Rsud.ListBookingAdminRSUD" />
+        <activity android:name=".Anak_Polisi.SubMenuPolisiAdmin"></activity>
     </application>
 
 </manifest>
